@@ -1,0 +1,55 @@
+
+.progress{
+    position: relative;
+    left: 45%;
+    padding: 10px;
+    font-size:large;
+    font-weight: bold;
+    width: 200px;
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+    animation-name: animate;
+    animation-duration: 5s;
+}
+
+@keyframes animate{
+    from{ width: 0px;}
+    to{width: 200px}
+}
+
+.btn-add{
+    position: relative;
+    left: 500px;
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(66, 63, 231);
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+.btn-add:hover::before{
+    background-color: cadetblue;
+    color: black;
+}
+
+hr{
+    width: 75%;
+}
+
+.div-box{
+    position: relative;
+    left: 45%;
+    padding: 20px;
+    margin: 0 1em 1em 0;
+    font-size:large;
+    font-weight: bold;
+    width: 200px;
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); 
+    animation-name: animate;
+    animation-duration: 5s;
+}
